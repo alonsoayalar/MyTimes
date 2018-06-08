@@ -36,3 +36,78 @@ h1 {
   color: aquamarine;
   margin-left: 10px;
 }
+
+.main {
+  display: flex;
+  flex-display: column;
+  border: 1px solid black;
+  margin: 10px 0;
+}
+
+.large {
+  width: 630px;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.medium {
+  width: 300px;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.small {
+  width: 240px;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.mother {
+  border: 1px solid black;
+  margin: 1px;
+}
+
+.monument {
+  border: 1px solid black;
+  margin: 1px;
+}
+
+.orca {
+  border: 1px solid black;
+  margin: 1px;
+}
+
+.earth {
+  border: 1px solid black;
+  margin: 1px;
+}
+
+.burger {
+  border: 1px solid black;
+  margin: 1px;
+}
+
+.research {
+  border: 1px solid black;
+  margin: 1px;
+}
+
+.FBI {
+  border: 1px solid black;
+  margin: 1px;
+}
+
+.cats {
+  border: 1px solid black;
+  margin: 1px;
+}
+
+.brooklyn {
+  border: 1px solid black;
+  margin: 1px;
+}
+
+.news {
+  border: 1px solid black;
+  margin: 1px;
+}
