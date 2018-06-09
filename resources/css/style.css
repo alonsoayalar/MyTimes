@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .header {
   display: inline-flex;
   flex-direction: row;
@@ -5,7 +10,7 @@
   width:100%;
   margin: 0;
   position: fixed;
-  border-bottom: 1px solid black;
+  border: 1px solid black;
   height:81px;
   background-color: white;
   z-index: 3;
@@ -24,7 +29,7 @@
   flex-direction: row-reverse;
   justify-content: flex-start;
   align-items: center;
-  margin:5px;
+  margin:5px 5px 5px 20px;
 }
 
 a {
@@ -53,7 +58,7 @@ h1 {
   position:absolute;
   top:81px;
   height:1450px;
-
+  width: 100%;
 }
 
 .large {
@@ -62,7 +67,7 @@ h1 {
   flex-direction: row;
   flex-flow: column wrap;
   align-content: center;
-  margin: 5px 5px 5px 5px;
+  margin: 5px 10px 5px 50px;
 }
 
 .medium {
@@ -71,7 +76,7 @@ h1 {
   display:inline-flex;
   flex-direction: row;
   flex-flow: column wrap;
-  margin: 5px 5px 5px 20px;
+  margin: 5px 10px 5px 10px;
 }
 
 .small {
@@ -80,20 +85,21 @@ h1 {
   flex-direction: column;
   flex-flow: column wrap;
   align-content: center;
-  margin: 5px 5px 5px 5px;
+  margin: 5px 50px 5px 10px;
 }
 
 .mother {
-  margin: 1px 1px 1px 10px;
   width:630px;
   height:300px;
   background-image: url("../images/MainStory.png");
   display:flex;
   flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
 }
 
 .monument {
-  margin: 1px 0 0 10px;
+  margin: 1px 15px 1px 10px;
   height:162px;
   margin: 15px 0;
 }
@@ -106,15 +112,23 @@ h1 {
 }
 
 .orca {
-  margin: 5px 10px;
+  margin: 5px 10px 5px 0;
   width:45%;
   height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .burger {
   margin: 5px;
   width:48%;
   height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -126,7 +140,7 @@ h1 {
 }
 
 .FBI {
-  margin: 1px;
+  margin: 15px 0 15px 0;
 }
 
 .cats {
@@ -140,7 +154,7 @@ h1 {
 }
 
 .brooklyn {
-  margin: 1px;
+  margin: 15px 0 15px 0;
 }
 
 .news {
