@@ -49,103 +49,87 @@ h1 {
 
 .large {
   width: 630px;
-  border: 1px solid black;
-  margin: 10px 10px 10px 170px;
+  display:inline-flex;
+  flex-direction: row;
+  flex-flow: column wrap;
+  align-content: center;
 }
 
 .medium {
   width: 300px;
-  border: 1px solid black;
   margin: 10px;
+  display:inline-flex;
+  flex-direction: row;
+  flex-flow: column wrap;
+  align-content: center;
 }
 
 .small {
   width: 240px;
-  border: 1px solid black;
   margin: 10px;
+  display:inline-flex;
+  flex-direction: row;
+  flex-flow: column wrap;
+  align-content: center;
 }
 
 .mother {
-  border: 1px solid black;
   margin: 1px 1px 1px 1px;
   height: 250px;
   background-image: url("../images/MainStory.png");
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  display:flex;
+  flex-direction: row-reverse;
 }
 
 .monument {
-  border: 1px solid black;
-  margin: 1px;
-}
-
-.orca {
-  border: 1px solid black;
   margin: 1px;
 }
 
 .earth {
-  border: 1px solid black;
-  margin: 1px;
+  margin: 5px;
   height: 250px;
   background-image: url("../images/Fall.png");
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
+  width:50%;
+}
+
+.orca {
+  margin: 5px;
+  width:48%;
+  height: 50%;
 }
 
 .burger {
-  border: 1px solid black;
-  margin: 1px;
+  margin: 5px;
+  width:48%;
+  height: 50%;
 }
 
 .research {
   border: 1px solid black;
-  margin: 1px;
+  margin: 5px;
   height: 250px;
   background-image: url("../images/Hipster.png");
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  width: 50%;
 }
 
 .FBI {
-  border: 1px solid black;
   margin: 1px;
 }
 
 .cats {
-  border: 1px solid black;
   margin: 1px;
   background-image: url("../images/Cats.png");
+  display:flex ;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .brooklyn {
-  border: 1px solid black;
   margin: 1px;
 }
 
 .news {
-  border: 1px solid black;
   margin: 1px;
-}
-
-#mom {
-  font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
-  margin: 0 40px 0 0;
-}
-
-#earth,
-#research {
-  font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
-  margin: 0 0 0 0;
 }
 
 .medium h6 {
@@ -153,4 +137,23 @@ h1 {
   font-weight: bold;
   font-size: 30px;
   color: white;
+}
+
+.large h6 {
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  margin: 0;
+}
+
+.large .halfs h6 {
+  text-align: center;
+}
+
+.halfs {
+  display: flex;
+  flex-flow: column wrap;
+  height: 550px;
 }
