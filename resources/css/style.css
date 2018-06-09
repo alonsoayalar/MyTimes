@@ -42,12 +42,15 @@ h1 {
   flex-display: column;
   border: 1px solid black;
   margin: 10px 0;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 
 .large {
   width: 630px;
   border: 1px solid black;
-  margin: 10px;
+  margin: 10px 10px 10px 170px;
 }
 
 .medium {
@@ -64,7 +67,12 @@ h1 {
 
 .mother {
   border: 1px solid black;
-  margin: 1px;
+  margin: 1px 1px 1px 1px;
+  height: 250px;
+  background-image: url("../images/MainStory.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .monument {
@@ -80,6 +88,11 @@ h1 {
 .earth {
   border: 1px solid black;
   margin: 1px;
+  height: 250px;
+  background-image: url("../images/Fall.png");
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .burger {
@@ -90,6 +103,11 @@ h1 {
 .research {
   border: 1px solid black;
   margin: 1px;
+  height: 250px;
+  background-image: url("../images/Hipster.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .FBI {
@@ -100,6 +118,7 @@ h1 {
 .cats {
   border: 1px solid black;
   margin: 1px;
+  background-image: url("../images/Cats.png");
 }
 
 .brooklyn {
@@ -110,4 +129,28 @@ h1 {
 .news {
   border: 1px solid black;
   margin: 1px;
+}
+
+#mom {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  margin: 0 40px 0 0;
+}
+
+#earth,
+#research {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  margin: 0 0 0 0;
+}
+
+.medium h6 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
 }
