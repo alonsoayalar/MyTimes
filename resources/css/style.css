@@ -3,7 +3,12 @@
   flex-direction: row;
   justify-content: space-between;
   width:100%;
-  border: 1px solid black;
+  margin: 0;
+  position: fixed;
+  border-bottom: 1px solid black;
+  height:81px;
+  background-color: white;
+  z-index: 3;
 }
 
 .logo {
@@ -40,11 +45,15 @@ h1 {
 .main {
   display: flex;
   flex-display: column;
-  border: 1px solid black;
+  justify-content: space-between;
   margin: 10px 0;
   font-family: Georgia;
   font-size: 17px;
   color: black;
+  position:absolute;
+  top:81px;
+  height:1450px;
+
 }
 
 .large {
@@ -53,6 +62,7 @@ h1 {
   flex-direction: row;
   flex-flow: column wrap;
   align-content: center;
+  margin: 5px 5px 5px 5px;
 }
 
 .medium {
@@ -61,53 +71,56 @@ h1 {
   display:inline-flex;
   flex-direction: row;
   flex-flow: column wrap;
-  align-content: center;
+  margin: 5px 5px 5px 20px;
 }
 
 .small {
   width: 240px;
-  margin: 10px;
   display:inline-flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-flow: column wrap;
   align-content: center;
+  margin: 5px 5px 5px 5px;
 }
 
 .mother {
-  margin: 1px 1px 1px 1px;
-  height: 250px;
+  margin: 1px 1px 1px 10px;
+  width:630px;
+  height:300px;
   background-image: url("../images/MainStory.png");
   display:flex;
   flex-direction: row-reverse;
 }
 
 .monument {
-  margin: 1px;
+  margin: 1px 0 0 10px;
+  height:162px;
+  margin: 15px 0;
 }
 
 .earth {
   margin: 5px;
-  height: 250px;
+  height: 300px;
   background-image: url("../images/Fall.png");
   width:50%;
 }
 
 .orca {
-  margin: 5px;
-  width:48%;
-  height: 50%;
+  margin: 5px 10px;
+  width:45%;
+  height: 250px;
 }
 
 .burger {
   margin: 5px;
   width:48%;
-  height: 50%;
+  height: 250px;
 }
 
+
 .research {
-  border: 1px solid black;
   margin: 5px;
-  height: 250px;
+  height: 300px;
   background-image: url("../images/Hipster.png");
   width: 50%;
 }
@@ -117,11 +130,13 @@ h1 {
 }
 
 .cats {
-  margin: 1px;
   background-image: url("../images/Cats.png");
-  display:flex ;
-  justify-content: flex-end;
-  align-items: center;
+  height: 300px;
+  margin: 5px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 .brooklyn {
@@ -139,13 +154,22 @@ h1 {
   color: white;
 }
 
+.large .mother h6 {
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  margin: 0 50px 0 0;
+}
+
 .large h6 {
   display: flex;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
-  margin: 0;
+  margin: 0 0 0 0;
 }
 
 .large .halfs h6 {
@@ -155,5 +179,68 @@ h1 {
 .halfs {
   display: flex;
   flex-flow: column wrap;
-  height: 550px;
+  height: 650px;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin: 41px;
+}
+
+.news {
+  background-color: WhiteSmoke;
+  font-size: 12px;
+  color: DimGray;
+}
+
+.news p {
+    border-bottom: 1px solid black;
+    margin: 0;
+    padding: 15px 20px;
+}
+
+.cookie{
+  height: 240px;
+}
+
+footer {
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  width:100%;
+  height:325px;
+}
+
+h5 {
+ font-family: Georgia;
+ font-size: 16px;
+ font-weight: bold;
+ color: white;
+ display: inline-flex;
+}
+
+footer a {
+  display: inline-flex;
+  justify-content: space-around;
+  margin: 0 5px;
+}
+
+#copyright {
+  display: block;
+}
+
+#ultimo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
 }
